@@ -1,0 +1,5 @@
+# QuestFree dependencies
+bleak>=0.21.0          # BLE via BlueZ D-Bus (Linux) — scan, connect, GATT read/write
+cryptography>=42.0.0   # X25519 ECDH for the STELLA handshake (same as libsodium curve25519)
+protobuf>=4.25.0       # STELLA/ALOHA protocol message encoding/decoding
+PyGObject>=3.44.0      # BlueZ D-Bus integration (Linux)
